@@ -28,4 +28,17 @@ export const carddata = [
   },
 ];
 
-export const accordiandata = [{}];
+export const accordiandata = [
+    {
+        title:'Accordion 1',
+        para:'lorem',
+    },
+    {
+        title:'Accordion 1',
+        para:'lorem',
+    },
+    {
+        title:'Accordion 1',
+        para:'lorem',
+    },
+];

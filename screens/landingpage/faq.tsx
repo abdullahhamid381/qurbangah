@@ -6,6 +6,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Button from "@mui/material/Button";
 import "../scsss/faq.scss";
+import { accordiandata } from "@/data/data";
 export default function faq() {
   return (
     <div className="faq-parent">
@@ -21,22 +22,28 @@ export default function faq() {
           </div>
         </div>
         <div className="accordian-parent">
-          <div className="accordian">
-            <Accordion>
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls="panel1-content"
-                id="panel1-header"
-              >
-                Accordion 1
-              </AccordionSummary>
-              <AccordionDetails>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-                eget.
-              </AccordionDetails>
-            </Accordion>
-          </div>
+          {accordiandata.map((item) => {
+            return (
+              <div className="accordian">
+                <Accordion>
+                  <AccordionSummary
+                    expandIcon={<ExpandMoreIcon />}
+                    aria-controls="panel1-content"
+                    id="panel1-header"
+                  >
+                  <h1>
+                  Accordion 1
+                  </h1>
+                  </AccordionSummary>
+                  <AccordionDetails>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse malesuada lacus ex, sit amet blandit leo
+                    lobortis eget.
+                  </AccordionDetails>
+                </Accordion>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
