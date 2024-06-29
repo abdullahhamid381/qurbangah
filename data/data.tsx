@@ -16,3 +16,15 @@ export const navbardata = [
     },
     
 ]
+
+export const carddata=[
+    {
+        img:'./images/farm.jpg'
+    },
+    {
+        img:'./images/animal.jpg'
+    },
+    {
+        img:'./images/farm.jpg'
+    },
+]

@@ -1,5 +1,6 @@
 import Navbar from '@/screens/navbar/navbar'
 import Hero from '../../screens/landingpage/hero'
+import Cards from '../../screens/landingpage/cards'
 import React from 'react'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
         <div>
             <Navbar />
         <Hero/>
+        <Cards/>
         </div>
     )
 }
