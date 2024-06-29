@@ -30,7 +30,7 @@
         margin-top: 80px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 0 20px;
+        gap: 0 00px;
 
         .img {
           img {
@@ -43,14 +43,37 @@
           flex-direction: column;
           align-items: center;
           justify-content: center;
+          padding: 0 30px;
 
           h1 {
             text-align: center;
+            font-family: "Libre Baskerville", serif;
+            font-size: 40px;
           }
 
           p {
             text-align: center;
+            font-family: "Libre Baskerville", serif;
+            color: #99958C;
           }
+          button {
+            background: #FEC321;
+            
+                padding: 8px 45px;
+                border: 2px solid #FEC321 ;
+                transition: .8s;
+            margin-top: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+
+            &:hover{
+                background: none;
+                border: 2px solid #B8B8B8;
+                color: #B8B8B8;
+            }
+        }
         }
       }
     }
