@@ -2,6 +2,7 @@ import Navbar from '@/screens/navbar/navbar'
 import Hero from '../../screens/landingpage/hero'
 import About from '../../screens/landingpage/about'
 import Cards from '../../screens/landingpage/cards'
+import Faqs from '../../screens/landingpage/faq'
 import React from 'react'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero/>
         <Cards/>
         <About/>
+        <Faqs/>
         </div>
     )
 }
