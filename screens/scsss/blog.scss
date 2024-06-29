@@ -142,9 +142,12 @@
                 padding-top: 60px;
                 justify-content: center;
                 button {
+                    display: flex;
+                    gap: 0 8px;
+                    align-items: center;
                     background: #FEC321;
                   
-                        padding: 8px 45px;
+                        padding: 12px 45px;
                         border: 2px solid #FEC321 ;
                         transition: .8s;
                     margin-top: 25px;

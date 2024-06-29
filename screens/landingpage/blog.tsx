@@ -2,6 +2,7 @@ import React from 'react'
 import '../scsss/blog.scss'
 import Cards from './cards'
 import { blogdata } from '@/data/data'
+import { FaArrowRightLong } from "react-icons/fa6";
 const blog = () => {
   return (
   <div className="blog-parent">
@@ -38,7 +39,8 @@ const blog = () => {
             })}
         </div>
         <div className="read-more">
-            <button>Read All Posts</button>
+            <button>Read All Posts <FaArrowRightLong />
+            </button>
         </div>
         </div>
     </div>
