@@ -1,0 +1,27 @@
+.blog-parent{
+    padding-top: 180px;
+    .background{
+        .width{
+            .title {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                h1 {
+                  text-align: center;
+                  font-size: 55px;
+                  font-weight: 700;
+                  font-family: "Libre Baskerville", serif;
+                  text-transform: capitalize;
+                  color: #231f20;
+                }
+                .img {
+                  display: flex;
+                  justify-content: center;
+                  img {
+                  }
+                }
+              }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../scsss/blog.scss'
 const blog = () => {
   return (
   <div className="blog-parent">
@@ -8,7 +8,7 @@ const blog = () => {
         <div className="title">
           <div>
             <div>
-              <h1>frequently asked questions</h1>
+              <h1>Blogs</h1>
             </div>
             <div className="img">
               <img src="./images/divider.png" alt="" />
