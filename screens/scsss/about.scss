@@ -49,31 +49,34 @@
             text-align: center;
             font-family: "Libre Baskerville", serif;
             font-size: 40px;
+            font-weight: 400;
           }
 
           p {
             text-align: center;
+            padding: 20px 0 0 0;
             font-family: "Libre Baskerville", serif;
-            color: #99958C;
+            color: #99958c;
+            
           }
           button {
-            background: #FEC321;
-            
-                padding: 8px 45px;
-                border: 2px solid #FEC321 ;
-                transition: .8s;
+            background: #fec321;
+
+            padding: 8px 45px;
+            border: 2px solid #fec321;
+            transition: 0.8s;
             margin-top: 25px;
             font-size: 16px;
             cursor: pointer;
             font-family: "Poppins", sans-serif;
             font-weight: 500;
 
-            &:hover{
-                background: none;
-                border: 2px solid #B8B8B8;
-                color: #B8B8B8;
+            &:hover {
+              background: none;
+              border: 2px solid #b8b8b8;
+              color: #b8b8b8;
             }
-        }
+          }
         }
       }
     }

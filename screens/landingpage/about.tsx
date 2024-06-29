@@ -29,7 +29,6 @@ const about = () => {
                 easy for you to sponsor animals for sacrifice, ensuring that
                 your contributions are used ethically and transparently to
                 benefit those in need.
-                
               </p>
               <button>Read More</button>
             </div>
