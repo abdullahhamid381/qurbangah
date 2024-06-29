@@ -9,19 +9,17 @@ const Cards = () => {
             {carddata.map((item) => {
                 return (
                   <div className='card-item' >
-                      <div>
-                      <img src={item.img}  />
+                      <div className='image-container'>
+                          <img src={item.img}  />
+                          <div className='overlay'>
+                          
+                          </div>
                       </div>
-                      <div className='overlay'>
-                        <h1>hello</h1>
+                      <div className='detail'>
+                          <h1>Our Dairy Farm</h1>
+                          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
+                          <button>View More</button>
                       </div>
-<div className='detail'>
-    <h1>Our Dairy Farm</h1>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta.</p>
-  <div>
-  <button>View More</button>
-  </div>
-</div>
                   </div>
                 )
             })}
