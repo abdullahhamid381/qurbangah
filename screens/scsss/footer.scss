@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+.footer-parent {
+  .background {
+    background: #231f20;
+    padding: 60px 0 0 0;
+    .width {
+      width: 80%;
+      margin: auto;
+      .new-letter {
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+        .field {
+          display: flex;
+          gap: 10px;
+          input {
+            padding: 15px 10px;
+            font-size: 16px;
+            outline: none;
+            border: none;
+          }
+          .button {
+            background: #fec321;
+            transition: 0.8s;
+            padding: 15px 20px;
+            cursor: pointer;
+            &:hover {
+              background: #a97d04;
+            }
+          }
+        }
+        h1 {
+          font-size: 55px;
+          color: white;
+          font-family: "Libre Baskerville", serif;
+          line-height: 65px;
+        }
+        p {
+          color: white;
+          font-size: 14px;
+        }
+      }
+      .items{
+        padding-top: 80px;
+        padding-bottom: 30px;
+        display: grid;
+        border-bottom: 1px solid white;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        h1{
+            font-size: 32px;
+            color: white;
+            font-family: "Libre Baskerville", serif;
+            line-height: 65px;
+        }
+        .list{
+
+    padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px 0;
+           span{
+            color: white;
+           }
+        }
+      }
+      .copyright{
+        p{
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+      }
+    }
+  }
+}
