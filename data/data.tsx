@@ -27,6 +27,17 @@ export const carddata = [
     img: "./images/farm.jpg",
   },
 ];
+export const blogdata = [
+  {
+    img: "./images/farm.jpg",
+  },
+  {
+    img: "./images/animal.jpg",
+  },
+  {
+    img: "./images/farm.jpg",
+  },
+];
 
 export const accordiandata = [
     {
@@ -41,4 +52,8 @@ export const accordiandata = [
         title:'Accordion 1',
         para:'lorem',
     },
+    {
+      title:'Accordion 1',
+      para:'lorem',
+  },
 ];
