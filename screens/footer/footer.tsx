@@ -9,7 +9,7 @@ const footer = () => {
           <div className="new-letter">
             <div>
               <h1>Newsletter</h1>
-              <p>Short description gose here</p>
+              <img src="./images/divider.png" alt="" />
             </div>
             <div className="field">
               <input type="email" placeholder="Enter your email" />

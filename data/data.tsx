@@ -89,7 +89,7 @@ export const footerdata=[
   {
     title:'Contact Information',
     list1:'Phone: +xxx-xxx-xxxx',
-    list2:'Email: info@orangetreeproject.com',
+    list2:'Email: info@qurbangah.com',
     list3:'Address: 123 Charity Lane, City, Country',
     
    
