@@ -70,7 +70,7 @@ function Navbar() {
                   return (
                     <li className="nav-item">
                       <div className="nav-links browse" onClick={handleClick}>
-                        <Link href="/compare">
+                        <Link href={item.link}>
                           <p className="link">{item.item}</p>
                         </Link>
                       </div>

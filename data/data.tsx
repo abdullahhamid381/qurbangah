@@ -1,6 +1,7 @@
 export const navbardata = [
   {
     item: "Home",
+    link:'/about'
   },
   {
     item: "About",
