@@ -69,7 +69,7 @@ function Navbar() {
               
                  <li className="nav-item">
                       <div className="nav-links browse" onClick={handleClick}>
-                        <Link href=''>
+                        <Link href=>
                           <p className="link">{item.item}</p>
                         </Link>
                       </div>
