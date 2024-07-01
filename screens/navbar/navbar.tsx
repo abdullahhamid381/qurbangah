@@ -66,7 +66,11 @@ function Navbar() {
                 <img src="./images/logo.png" alt="Logo" />
               </div>
               <div className="browse-flex">
-              
+                {navbardata.map((item) => {
+                  return (
+                   
+                  );
+                })}
                  <li className="nav-item">
                       <div className="nav-links browse" onClick={handleClick}>
                         <Link href={item.link}>
